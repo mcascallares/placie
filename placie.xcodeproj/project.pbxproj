@@ -37,6 +37,7 @@
 		601A4A7C158FA9C600928DFD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 601A4A7B158FA9C600928DFD /* AppDelegate.m */; };
 		601A4A7F158FA9C600928DFD /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 601A4A7E158FA9C600928DFD /* MainViewController.m */; };
 		601A4A81158FA9C600928DFD /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 601A4A80158FA9C600928DFD /* MainViewController.xib */; };
+		601A4A8F158FAA3700928DFD /* www in Resources */ = {isa = PBXBuildFile; fileRef = 601A4A8E158FAA3700928DFD /* www */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,10 +55,10 @@
 		601A4A47158FA9C600928DFD /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		601A4A49158FA9C600928DFD /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		601A4A4B158FA9C600928DFD /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
-		601A4A4F158FA9C600928DFD /* placie-Info.plist */ = {isa = PBXFileReference; path = "placie-Info.plist"; sourceTree = "<group>"; };
+		601A4A4F158FA9C600928DFD /* placie-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "placie-Info.plist"; sourceTree = "<group>"; };
 		601A4A51158FA9C600928DFD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		601A4A53158FA9C600928DFD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		601A4A55158FA9C600928DFD /* placie-Prefix.pch */ = {isa = PBXFileReference; path = "placie-Prefix.pch"; sourceTree = "<group>"; };
+		601A4A55158FA9C600928DFD /* placie-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "placie-Prefix.pch"; sourceTree = "<group>"; };
 		601A4A56158FA9C600928DFD /* Cordova.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cordova.framework; path = /Users/Shared/Cordova/Frameworks/Cordova.framework; sourceTree = "<absolute>"; };
 		601A4A5B158FA9C600928DFD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Resources/en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		601A4A5F158FA9C600928DFD /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = Resources/es.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -70,13 +71,14 @@
 		601A4A73158FA9C600928DFD /* Default@2x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x~iphone.png"; path = "Resources/splash/Default@2x~iphone.png"; sourceTree = "<group>"; };
 		601A4A75158FA9C600928DFD /* Capture.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Capture.bundle; path = Resources/Capture.bundle; sourceTree = "<group>"; };
 		601A4A77158FA9C600928DFD /* Cordova.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Cordova.plist; sourceTree = "<group>"; };
-		601A4A7A158FA9C600928DFD /* AppDelegate.h */ = {isa = PBXFileReference; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
+		601A4A7A158FA9C600928DFD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
 		601A4A7B158FA9C600928DFD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Classes/AppDelegate.m; sourceTree = "<group>"; };
-		601A4A7D158FA9C600928DFD /* MainViewController.h */ = {isa = PBXFileReference; name = MainViewController.h; path = Classes/MainViewController.h; sourceTree = "<group>"; };
+		601A4A7D158FA9C600928DFD /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = Classes/MainViewController.h; sourceTree = "<group>"; };
 		601A4A7E158FA9C600928DFD /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = Classes/MainViewController.m; sourceTree = "<group>"; };
 		601A4A80158FA9C600928DFD /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainViewController.xib; path = Classes/MainViewController.xib; sourceTree = "<group>"; };
-		601A4A83158FA9C600928DFD /* README */ = {isa = PBXFileReference; name = README; path = Plugins/README; sourceTree = "<group>"; };
-		601A4A84158FA9C600928DFD /* verify.sh */ = {isa = PBXFileReference; path = verify.sh; sourceTree = "<group>"; };
+		601A4A83158FA9C600928DFD /* README */ = {isa = PBXFileReference; lastKnownFileType = text; name = README; path = Plugins/README; sourceTree = "<group>"; };
+		601A4A84158FA9C600928DFD /* verify.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = verify.sh; sourceTree = "<group>"; };
+		601A4A8E158FAA3700928DFD /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 		601A4A21158FA9C500928DFD = {
 			isa = PBXGroup;
 			children = (
+				601A4A8E158FAA3700928DFD /* www */,
 				601A4A4D158FA9C600928DFD /* placie */,
 				601A4A32158FA9C600928DFD /* Frameworks */,
 				601A4A30158FA9C600928DFD /* Products */,
@@ -327,6 +330,7 @@
 				601A4A76158FA9C600928DFD /* Capture.bundle in Resources */,
 				601A4A78158FA9C600928DFD /* Cordova.plist in Resources */,
 				601A4A81158FA9C600928DFD /* MainViewController.xib in Resources */,
+				601A4A8F158FAA3700928DFD /* www in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -538,6 +542,7 @@
 				601A4A89158FA9C600928DFD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
